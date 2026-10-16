@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QQCatHelper</string>
+    <string name="accessibility_service_description">自动将 QQ 输入框中的文字处理成喵喵风格，可添加“喵”和随机颜文字。</string>
+
+    <string name="status_enabled">状态：无障碍服务已开启</string>
+    <string name="status_disabled">状态：无障碍服务未开启</string>
+    <string name="service_open">开启无障碍服务</string>
+    <string name="service_close">关闭无障碍服务</string>
+
+    <string name="section_mode">处理模式</string>
+    <string name="mode_punctuation">标点触发（推荐）</string>
+    <string name="mode_realtime">实时处理</string>
+    <string name="mode_hint">标点触发：输入句号、感叹号、问号后再处理\n实时处理：边输入边处理，发送时补随机颜文字</string>
+
+    <string name="section_features">功能开关</string>
+    <string name="feature_meow">断句加喵</string>
+    <string name="feature_meow_desc">在句号、感叹号等标点前加“喵”</string>
+    <string name="feature_wo">我 → 本喵</string>
+    <string name="feature_wo_desc">将“我”替换成“本喵”</string>
+    <string name="feature_ni">你 → 主人</string>
+    <string name="feature_ni_desc">将“你”替换成“主人”</string>
+    <string name="feature_kaomoji">随机颜文字</string>
+    <string name="feature_kaomoji_desc">在消息末尾追加随机猫猫颜文字</string>
+
+    <string name="section_custom">自定义颜文字</string>
+    <string name="custom_hint">每行一个，留空则使用内置列表</string>
+
+    <string name="save">保存设置</string>
+    <string name="test">测试当前配置</string>
+    <string name="saved">设置已保存</string>
+    <string name="open_settings_failed">无法打开无障碍设置</string>
+    <string name="test_title">测试结果（仅展示）</string>
+    <string name="test_input">你好，我喜欢你。明天见！</string>
+    <string name="test_message_format">模式：%1$s\n\n输入：\n%2$s\n\n输出：\n%3$s\n\n颜文字为随机结果，每次可能不同。</string>
+    <string name="dialog_ok">确定</string>
+
+    <string name="keep_alive_channel_name">QQCatHelper 保活服务</string>
+    <string name="keep_alive_notification_title">QQCatHelper 正在运行</string>
+    <string name="keep_alive_notification_text">保持无障碍服务稳定运行</string>
+
+    <string name="section_keep_alive">保活模式</string>
+    <string name="keep_alive_off">关闭</string>
+    <string name="keep_alive_general">通用（通知保活）</string>
+    <string name="keep_alive_overlay">悬浮窗保活</string>
+    <string name="keep_alive_shizuku">Shizuku（终极方案）</string>
+    <string name="keep_alive_hint">通用：前台通知；悬浮窗：额外显示小悬浮球；Shizuku：自动添加电池白名单和后台限制豁免</string>
+    <string name="keep_alive_overlay_permission_required">需要悬浮窗权限，请前往设置授权</string>
+</resources>
