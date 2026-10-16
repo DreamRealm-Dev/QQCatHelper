@@ -44,14 +44,14 @@ QQCatHelper/
 如果本机 `JAVA_HOME` 不是 JDK 21，命令行构建时请显式指定，例如：
 
 ```bash
-export JAVA_HOME='H:\mod\jdk21\jdk-21.0.12.1+1'
+export JAVA_HOME=/path/to/jdk-21
 export PATH="$JAVA_HOME/bin:$PATH"
 ```
 
 SDK 位置写在本机 `local.properties`（已 gitignore），例：
 
 ```properties
-sdk.dir=H\:\\AndroidSdk
+sdk.dir=C\:\\Android\\Sdk
 ```
 
 用 Android Studio 打开本目录，等待 Gradle 同步后直接运行到手机即可。
